@@ -1,0 +1,57 @@
+.profile{
+    width: 40px;
+    border-radius: 100px;
+    border: 2px solid #130beb;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 300px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact h4{
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.contact p{
+    color: gray;
+}
+.all-contacts{
+    border: 1px solid #ccc;
+    width: fit-content;
+    margin: auto;
+}
+body{
+    padding: 30px;
+}
+
+/* ['green', 'red', 'blue', 'yellow', 'Orange'] */
+.green{
+    background-color: darkolivegreen;
+}
+.red{
+    background-color: red !important;
+}
+.blue{
+    background-color: blue !important;
+}
+
+.yellow{
+    background-color: yellow !important;
+}
+.red{
+    background-color: orange !important;
+}
